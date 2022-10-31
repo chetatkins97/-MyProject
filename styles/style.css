@@ -1,0 +1,29 @@
+html {
+    height: 100vh;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 100;
+    margin: 0;
+}
+
+
+header,
+footer {
+    background-color: #4B5842;
+    color: #ffffff;
+    padding: 48px;
+}
+
+main {
+    flex-grow: 1;
+}
